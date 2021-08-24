@@ -1,0 +1,115 @@
+.hero {
+  padding-top: 90px;
+  position: relative;
+
+  &__images {
+    height: calc(100vh - 90px);
+  }
+
+  &__opacity {
+    background-image: url(../images/hero-opacity.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 90px);
+
+    &::after {
+      content: "";
+      display: block;
+      padding-top: 50%;
+    }
+  }
+
+  &__cover {
+    background-image: url(../images/hero-cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 90px);
+
+    &::after {
+      content: "";
+      display: block;
+      padding-top: 50%;
+    }
+  }
+
+  &__logo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 900px;
+    transform: translate(-50%, 0%);
+    z-index: 3000;
+  }
+
+  &__title {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 300px;
+    opacity: 0;
+    letter-spacing: -5px;
+    // z-index: 3000;
+
+    & span {
+      opacity: 0;
+      -webkit-transition: 0.6s ease-in-out;
+      transition: 0.6s ease-in-out;
+      
+    }
+
+    &-logo {
+      background-image: url(../images/hero-img01.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 250px;
+      height: 260px;
+      display: none;
+      // z-index: 3000;
+    }
+    &-logo2 {
+      background-image: url(../images/hero-marumasa.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, 300%);
+      width: 200px;
+      height: 50px;
+      display: none;
+    }
+    &-logo3 {
+      background-image: url(../images/hero-scroll.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 300%;
+      left: 50%;
+      transform: translate(-50%, 270%);
+      width: 50px;
+      height: 100px;
+      display: none;
+    }
+  }
+}

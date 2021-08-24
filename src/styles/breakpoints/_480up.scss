@@ -1,0 +1,170 @@
+@media screen and (max-width: 480px) {
+  .sub-title {
+    font-size: 20px;
+  }
+  .header {
+    &__title {
+      &-company {
+        position: relative;
+        bottom: 8px;
+      }
+    }
+  }
+
+  .hero {
+    &__logo {
+      top: 40%;
+    }
+    &__title {
+
+      &-logo {
+        width: 180px;
+        height: 180px;
+        top: 67%;
+        transform: translate(-50%, -73%);
+      }
+      &-logo2 {
+        transform: translate(-50%, 120%);
+        width: 150px;
+        height: 50px;
+      }
+      &-logo3 {
+        transform: translate(-50%, 120%);
+        width: 40px;
+      }
+    
+      & span {
+        font-size: 25px;
+        
+      }
+    }
+  }
+
+  .main {
+    &__title {
+      &-wrapper {
+        padding-top: 80px;
+      }
+    }
+  }
+
+  .work {
+    &__h1 {
+      font-size: 24px;
+      &::after {
+        width: 120px;
+      }
+    }
+
+    &__inner {
+      padding: 30px 0 50px;
+    }
+    &__person01 {
+      width: 100px;
+      top: 700px;
+      right: -30px;
+    }
+    &__person02 {
+      width: 70px;
+    }
+    &__images {
+      right: -35%;
+    }
+  }
+
+  .about {
+    &__h1 {
+      font-size: 24px;
+
+      &::after {
+        width: 270px;
+      }
+    }
+    &__images {
+      left: -18%;
+    }
+    &__person03 {
+      width: 50px;
+      top: -1px;
+    }
+    &__des {
+      margin-top: 50px;
+
+      &-title {
+        width: auto;
+        padding-right: 0;
+        // text-align: center;
+      }
+    }
+    &__txt {
+      width: 100%;
+      text-align: left;
+      &-wrapper {
+        width: 90%;
+        text-align: center;
+      }
+    }
+    &__panel {
+      width: 80%;
+
+      &-wrapper {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .staff {
+    &__h1 {
+      font-size: 24px;
+
+      &::after {
+        width: 140px;
+      }
+    }
+    &__person04 {
+      width: 120px;
+      top: -110px;
+      right: 30px;
+    }
+  }
+  .contact {
+    &-br {
+      display: block;
+    }
+  }
+    
+  .footer {
+    &__adress {
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    &__scroll {
+      & > a {
+        opacity: 0.6;
+      }
+    }
+    &__bottom {
+      font-size: 13px;
+    }
+  }
+}
+@media screen and (max-width: 529px) {
+  .main {
+    height: 460px;
+
+    &__images {
+      width: 360px;
+      bottom: -35%;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    height: 420px;
+
+    &__images {
+      width: 340px;
+      bottom: -40%;
+    }
+  }
+}

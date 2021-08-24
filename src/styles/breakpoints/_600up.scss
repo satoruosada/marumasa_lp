@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px) {
+  .main {
+    &__title {
+      &-wrapper {
+        margin: 0 auto;
+        width: 90%;
+      }
+    }
+  }
+
+  .work {
+    &__person01 {
+      top: 650px;
+    }
+  }
+
+  .parallax {
+    height: 450px;
+
+    &-movie {
+      height: 450px;
+    }
+  }
+
+  .about {
+    &__panel {
+      &-title {
+        font-size: 16px;
+      }
+
+      &-txt {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .staff {
+    &__des {
+      &-titlewrap {
+        flex-direction: column;
+        align-items: center;
+      }
+      &-titleimages {
+        margin-top: 20px;
+      }
+    }
+
+    &__images {
+      left: 110px;
+
+      .staff .staff__des:nth-child(2n) & {
+        right: 70px;
+      }
+    }
+
+    &__person04 {
+      right: 50px;
+    }
+  }
+
+  .contact {
+    & p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    height: 500px;
+
+    &__images {
+      width: 500px;
+      bottom: -27%;
+    }
+  }
+  .contact {
+    & > h1 {
+      font-size: 36px;
+    }
+    & img {
+      margin-left: 85%;
+    }
+  }
+}

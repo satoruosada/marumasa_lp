@@ -1,0 +1,10 @@
+// jQuery('.js-hero__images').slick({
+//     autoplay:true,
+//     autoplaySpeed:4000,
+//     speed:2000,
+//     dots:false,
+//     arrows: true,
+//     fade: true,
+// });
+"use strict";
+//# sourceMappingURL=hero-slider.js.map
