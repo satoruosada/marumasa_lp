@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
   .sub-title {
     font-size: 20px;
+    text-align: center;
   }
   .header {
     &__title {
@@ -11,11 +12,39 @@
     }
   }
 
+  .loading {
+
+    &__title {
+      letter-spacing: -3px;
+      font-size: 22px;
+      padding-bottom: 290px;
+
+
+    }
+    &__logo {
+      top: 58%;
+    }
+    &__title01 {
+      width: 180px;
+      height: 180px;
+      top: 67%;
+      transform: translate(-50%, -73%);
+    }
+    &__title02 {
+      transform: translate(-50%, 120%);
+      width: 150px;
+      height: 50px;
+    }
+  
+  }
+
   .hero {
     &__logo {
-      top: 40%;
+      top: 50%;
     }
     &__title {
+      width: 190px;
+      height: 280px;
 
       &-logo {
         width: 180px;
@@ -54,6 +83,9 @@
       &::after {
         width: 120px;
       }
+    }
+    &__h2 {
+      font-size: 20px;
     }
 
     &__inner {

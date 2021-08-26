@@ -26,6 +26,9 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
+    <!-- parallax -->
+    <script src="./js/vendors/backgroundVideo.js"></script>
 </head>
 
 <body>
@@ -80,29 +83,36 @@
                 <!-- ローディング -->
                 <div class="loading">
                     <div class="loading__images">
-                        <!-- <div class="loading__title">暮らしと、人をつくる。</div> -->
-                        <!-- <div class="loading__title01 fadeUp"></div>
-                        <div class="loading__title02 fadeUp"></div> -->
                         <div class="loading__cover"></div>
+                        <div class="loading__logo">
+                            <div class="loading__title font-mp">暮らしと、人をつくる。</div>
+                            <div class="loading__title01"></div>
+                            <div class="loading__title02"></div>
+
+                        </div>
                     </div>
                 </div>
 
                 <!-- ヒーローバナー -->
                 <div class="hero">
                     <div class="hero__images">
-                        <div class="hero__title-wrapper">
-                            <div class="hero__images bg-img-zoom img-bg50"
-                                style="background-image: url(./images/hero-img.png);">
-                                <div class="hero__opacity"></div>
-                                <div class="hero__cover"></div>
-                                <div class="hero__logo">
-                                    <div class="hero__title font-mp">暮らしと、人をつくる。</div>
-                                    <div class="hero__title-logo"></div>
-                                    <div class="hero__title-logo2"></div>
-                                    <div class="hero__title-logo3"></div>
-                                </div>
-                            </div>
+                        <div class="hero__movie-wrapper">
+                            <video class="hero__movie" src="./images/top-movie.mp4" playsinline loop autoplay
+                                muted></video>
+                            <div class="hero__movie-dotto"></div>
                         </div>
+                        <!-- <div class="hero__opacity"></div>
+                                <div class="hero__cover"></div> -->
+                        <div class="hero__logo">
+                            <div class="hero__title"></div>
+                            <div class="hero__title-logo"></div>
+                            <div class="hero__title-logo2"></div>
+                            <div class="hero__title-logo3"></div>
+                        </div>
+
+                        <!-- <div class="hero__images bg-img-zoom img-bg50"
+                                style="background-image: url(./images/top-movie.mp4);">
+                            </div> -->
                     </div>
                 </div>
 
@@ -179,7 +189,11 @@
                         </section>
 
                         <!-- パララックス -->
-                        <div class="parallax bg-1"></div>
+                        <div class="bv-video-container">
+                            <video class="bv-video" playsinline loop autoplay muted></video>
+                            <!-- <div class="hero__movie-dotto"></div> -->
+                        </div>
+
 
                         <!-- 取り組み -->
                         <section id="about" class="about">
@@ -251,7 +265,11 @@
                         </section>
 
                         <!-- パララックス -->
-                        <div class="parallax-movie bg-1"></div>
+                        <!-- <div class="parallax-movie bg-1"></div> -->
+                         <div class="bv-video-container">
+                            <video class="bv-video" playsinline loop autoplay muted></video>
+                            <!-- <div class="hero__movie-dotto"></div> -->
+                        </div>
 
                         <!-- スタッフ紹介 -->
                         <section id="staff" class="staff">

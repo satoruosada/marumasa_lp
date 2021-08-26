@@ -58,6 +58,19 @@ a {
   margin-bottom: 20px;
 }
 
+// パララックス
+.bv-video-wrap {
+  height: 700px !important;
+  z-index: -1 !important;
+}
+.bv-video-wrap02 {
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  width: 453px;
+  height: 840px;
+}
+
 #global-container {
   overflow: hidden;
 }
@@ -224,7 +237,7 @@ a {
     align-items: flex-start;
 
     &-title {
-      text-align: center;
+      // text-align: center;
     }
   }
 
@@ -264,7 +277,7 @@ a {
     margin-top: 80px;
   }
   &__h2 {
-    font-size: 24px;
+    font-size: 34px;
     color: #1f2c5c;
     font-weight: 700;
   }
@@ -307,10 +320,7 @@ a {
   text-align: center;
   //   position: relative;
 
-  &.bg-1 {
-    background-image: url(../images/palalax.png);
-    // z-index: 10;
-  }
+ 
 
   // パララックス動画
   &-movie {
